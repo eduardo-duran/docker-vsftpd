@@ -1,4 +1,4 @@
-FROM ubuntu:16
+FROM ubuntu:16.04
 
 LABEL author="Eduardo Duran"
 
