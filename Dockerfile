@@ -17,4 +17,4 @@ COPY create_user.sh /tmp
 RUN chmod -v +x /tmp/create_user.sh && \
     /tmp/create_user.sh
 
-ENTRYPOINT ["/usr/sbin/vsftpd /etc/vsftpd.conf"]
+ENTRYPOINT ["/usr/sbin/vsftpd","/etc/vsftpd.conf"]
